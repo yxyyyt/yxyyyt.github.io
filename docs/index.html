@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Development Guide</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 设置浏览器图标 -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- docsify的主题样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- 侧边栏插件的样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <!-- 目录跳转 -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+</head>
+<body>
+  <div id="app"></div>
+  
+  <script>
+		window.$docsify = {
+		
+			// 侧边栏顶部的标题
+			name: 'Development Guide',
+			// 侧边栏左侧的logo
+			logo: '',
+			repo: 'https://github.com/yxyyyt',
+			// 侧边栏，需要目录下有_sidebar.md文件
+			loadSidebar: true,
+			// 读取md文件中最大几级目录
+			subMaxLevel: 4,
+			// 自定义导航栏，需要目录下有_navbar.md文件
+			loadNavbar: true,
+			// 开启封面页，需要目录下有_coverpage.md文件
+			coverpage: true,
+			onlyCover: true,
+			maxLevel: 5,
+			// 移动设备合并导航栏到侧边栏
+			mergeNavbar: true,
+			// 切换页面后跳回页面顶部
+			auto2top: true,
+
+
+			// 搜索
+			search: {
+				maxAge: 86400000,
+				paths: 'auto',
+				placeholder: '搜索',
+				noData: '找不到结果',
+				depth: 4,
+				hideOtherSidebarContent: false,
+				namespace: 'Development Guide'
+			},
+			// 字数统计
+			count:{
+				countable: true,
+				position: 'top',
+				margin: '10px',
+				float: 'right',
+				fontsize:'0.9em',
+				color:'rgb(90,90,90)',
+				language:'chinese',
+				localization: {
+					words: "",
+					minute: ""
+				},
+				isExpected: true
+			},
+			// 分页导航
+			pagination: {
+				previousText: '上一章节',
+				nextText: '下一章节',
+				crossChapter: true,
+				crossChapterText: true
+			},
+			// 文本高亮
+			'flexible-alerts': {
+				style: 'flat',
+				note: {
+					label: "信息"
+				},
+				tip: {
+					label: "提示"
+				},
+				warning: {
+					label: "警告"
+				},
+				attention: {
+					label: "注意"
+				}
+			},
+			// 侧边栏扩展折叠的层级
+			sidebarDisplayLevel: 2,
+			// 页脚信息
+			loadFooter: true,
+			loadFooter: '_footer.md',
+			// 目录跳转
+			toc: {
+				scope: '.markdown-section',
+				headings: 'h1, h2, h3, h4, h5, h6',
+				title: '',
+			}
+    }
+  </script>
+  
+  
+  <!-- docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- 搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片放大缩小 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 分页导航 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 文本高亮 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- 侧边栏扩展折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- 页脚信息 -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+  <!-- emoji -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 代码复制 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 目录跳转 -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <!-- 字数统计 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+</body>
+</html>

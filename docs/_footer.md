@@ -1,0 +1,1 @@
+Copyright © sciatta.com 2020 all right reserved
