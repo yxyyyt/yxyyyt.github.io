@@ -1,2 +1,0 @@
-- [JVM核心技术](jdk_base/jvm/jvm_core)
-- [JDK工具](jdk_base/jvm/jdk_tool)
