@@ -45,4 +45,4 @@
   * Nexus
     * [配置Nexus](tool/nexus/config)
   * Gradle
-    * [配置Gradle](tool/gra/config)
+    * [配置Gradle](tool/gradle/config)
