@@ -258,3 +258,27 @@ docker run -p 9090:9000 -p 9001:9001 --name minio \
 # 主机可以访问 http://192.168.8.100:9090
 ```
 
+
+
+## Nexus
+
+```shell
+# 下载镜像
+docker pull sonatype/nexus3
+
+# 创建目录
+mkdir -p /root/data/nexus/data
+chmod 777 -R /root/data/nexus/data
+
+# 启动
+docker run -d --name nexus3 -p 8081:8081 --restart always \
+-v /root/data/nexus/data:/nexus-data \
+sonatype/nexus3
+
+# 查看日志，出现 "Started Sonatype Nexus OSS 3.64.0-04" 启动成功；主机可以访问 http://192.168.8.100:8081
+docker logs -f nexus3
+
+# 首次登录查看并在管理界面修改密码（admin/密文）
+cat /root/data/nexus/data/admin.password
+```
+

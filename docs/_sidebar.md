@@ -42,3 +42,7 @@
     * [镜像](tool/docker/images)
     * [问答](tool/docker/q&a)
   * IntelliJ IDEA
+  * Nexus
+    * [配置Nexus](tool/nexus/config)
+  * Gradle
+    * [配置Gradle](tool/gra/config)
