@@ -1,4 +1,4 @@
-* JDK基础
+* 1️⃣**JDK基础**
   * JVM
     * [JVM核心技术](jdk_base/jvm/jvm_core)
     * [JDK工具](jdk_base/jvm/jdk_tool)
@@ -8,27 +8,27 @@
     * [多线程基础](jdk_base/concurrency/thread_base)
     * [JUC基础](jdk_base/concurrency/juc)
     * [AQS](jdk_base/concurrency/aqs)
-* Java库
+* 2️⃣**Java库**
   * Netty
   * Mybatis
   * WebMagic
-* 算法
+* 3️⃣**算法**
   * 数据结构与算法
-* spring体系
+* 4️⃣**spring体系**
   * SpringCore
   * SpringMVC
   * SpringBoot
   * SpringCloud
   * SpringCloudAlibaba
-* 消息队列
+* 5️⃣**消息队列**
   * Kafka
   * RabbitMQ
   * RocketMQ
-* 数据库
+* 6️⃣**数据库**
   * MySQL
   * Redis
   * Elasticsearch
-* 工具
+* 7️⃣**工具**
   * Git
   * VMware
     * [安装环境](tool/vmware/install_vm)
@@ -42,6 +42,9 @@
     * [镜像](tool/docker/images)
     * [问答](tool/docker/q&a)
   * IntelliJ IDEA
+    * [配置IDEA](tool/intellij_idea/config)
+    * [快捷键](tool/intellij_idea/shortcut_keys)
+    * [问答](tool/intellij_idea/q&a)
   * Nexus
     * [配置Nexus](tool/nexus/config)
   * Gradle
