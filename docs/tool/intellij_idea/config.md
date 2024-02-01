@@ -24,7 +24,7 @@
 
 - Settings | Editor | Inlay Hints | Code vision
 
-  取消 Usages 和 Code author。取消代码中的内嵌提示。
+  取消 Usages、Code author、Inheritors。取消代码中的内嵌提示。
 
 - Settings | Editor | File Encodings 
 
