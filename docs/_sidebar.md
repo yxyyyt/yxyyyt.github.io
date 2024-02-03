@@ -13,7 +13,13 @@
   * Mybatis
   * WebMagic
 * 3️⃣**算法**
-  * 数据结构与算法
+  * 左程云算法与数据结构
+    * [体系](algo/algo_zcy/system)
+    * [进阶](algo/algo_zcy/advanced)
+    * [刷题](algo/algo_zcy/quiz)
+  * 竞赛
+    * [概述](algo/algo_match/overview)
+    * [课程设计](algo/algo_match/course)
 * 4️⃣**spring体系**
   * SpringCore
   * SpringMVC
