@@ -57,3 +57,5 @@
     * [配置Nexus](tool/nexus/config)
   * Gradle
     * [配置Gradle](tool/gradle/config)
+  * Typora
+    * [配置Typora](tool/typora/config)
