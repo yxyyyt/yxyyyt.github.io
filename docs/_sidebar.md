@@ -37,6 +37,7 @@
 * 7️⃣**工具**
   * Git
     * [Github开发规范](tool/git/github_dev_spec)
+    * [Github贡献](tool/git/github_contribute)
   * VMware
     * [安装环境](tool/vmware/install_vm)
     * [初始化环境](tool/vmware/init_vm)
