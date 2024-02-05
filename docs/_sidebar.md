@@ -19,7 +19,6 @@
     * [刷题](algo/algo_zcy/quiz)
   * 竞赛
     * [概述](algo/algo_match/overview)
-    * [课程设计](algo/algo_match/course)
 * 4️⃣**spring体系**
   * SpringCore
   * SpringMVC
