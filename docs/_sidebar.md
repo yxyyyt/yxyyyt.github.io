@@ -35,8 +35,11 @@
   * Elasticsearch
 * 7️⃣**工具**
   * Git
+    * [Git配置](tool/git/config)
+    * [Git命令](tool/git/command)
     * [Github开发规范](tool/git/github_dev_spec)
     * [Github贡献](tool/git/github_contribute)
+    * [问答](tool/git/q&a)
   * VMware
     * [安装环境](tool/vmware/install_vm)
     * [初始化环境](tool/vmware/init_vm)

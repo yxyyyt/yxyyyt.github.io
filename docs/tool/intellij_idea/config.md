@@ -62,4 +62,8 @@
 
 - Git Commit Message Helper
 
-  git 格式化提交消息插件
+  Git 格式化提交消息插件
+  
+- Gitee
+
+  Gitee插件
