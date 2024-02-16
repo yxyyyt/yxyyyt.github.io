@@ -1,6 +1,8 @@
 * 1️⃣**JDK基础**
   * JVM
     * [JVM核心技术](jdk_base/jvm/jvm_core)
+    * [ByteCode分析](jdk_base/jvm/bytecode_analysis)
+    * [内存分析调优](jdk_base/jvm/memory_analysis)
     * [JDK工具](jdk_base/jvm/jdk_tool)
   * IO
     * [IO模型](jdk_base/io/io_model)
