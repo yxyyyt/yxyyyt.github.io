@@ -33,6 +33,7 @@
   * RocketMQ
 * 6️⃣**数据库**
   * MySQL
+    * [MySQL核心技术](database/mysql/mysql_core)
   * Redis
     * [概述](database/redis/overview)
     * [Redis核心技术](database/redis/redis_core)
