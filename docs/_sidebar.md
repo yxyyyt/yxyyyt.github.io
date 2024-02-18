@@ -34,6 +34,8 @@
 * 6️⃣**数据库**
   * MySQL
   * Redis
+    * [概述](database/redis/overview)
+    * [Redis核心技术](database/redis/redis_core)
   * Elasticsearch
 * 7️⃣**工具**
   * Git
