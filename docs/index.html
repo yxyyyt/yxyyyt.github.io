@@ -14,7 +14,7 @@
   <!-- 侧边栏插件的样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   <!-- 目录跳转 -->
-  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
 </head>
 <body>
   <div id="app"></div>
@@ -98,9 +98,8 @@
 			loadFooter: '_footer.md',
 			// 目录跳转
 			toc: {
-				scope: '.markdown-section',
-				headings: 'h1, h2, h3, h4, h5, h6',
-				title: '',
+				tocMaxLevel: 5,
+				target: 'h1, h2, h3, h4, h5, h6'
 			}
     }
   </script>
@@ -125,7 +124,7 @@
   <!-- 代码复制 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- 目录跳转 -->
-  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
   <!-- 字数统计 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
 </body>
