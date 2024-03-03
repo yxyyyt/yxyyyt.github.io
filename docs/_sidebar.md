@@ -68,3 +68,6 @@
     * [配置Typora](tool/typora/config)
   * Docsify
     * [配置Docsify](tool/docsify/config)
+  * Blender
+    * [配置Blender](tool/blen/config)
+    * [操作](tool/blender/operate)
