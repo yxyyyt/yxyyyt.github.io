@@ -101,6 +101,10 @@ blender-3.6.9-macos-x64.dmg
 
 
 
+## 四元数和欧拉坐标
+
+
+
 # 基础配置
 
 Edit | Preferences
@@ -221,6 +225,7 @@ Edit | Preferences
 | 显示物体                   | alt+h                                                        |
 | 设置父子关系               | 1、ctrl+p；2、先选择一个物体，再a，则全选所有物体，并且第一个选择的物体为活动物体；3、操作父，则全部影响；4、操作子，不影响其他 |
 | 取消父子关系               | option+p                                                     |
+| 线框模式                   | shift+z                                                      |
 
 
 
@@ -271,6 +276,14 @@ Edit | Preferences
 | 填充线、面                                                   | f                                                            |
 | 连接顶点路径                                                 | j                                                            |
 | 环切                                                         | ctrl+r；1、选择不直的线拉直 r+y+0                            |
+| 重新计算法向（沿负轴挤出）                                   | shift+n                                                      |
+| 滑移边线                                                     | gg                                                           |
+| 挤出到鼠标位置                                               | ctrl+鼠标右键                                                |
+| 对点使用蒙皮编辑器，在编辑模式下缩放                         | ctrl+a                                                       |
+| 批量改名字                                                   | command+f2                                                   |
+| 选择多个物体，批量修改数值框                                 | Alt                                                          |
+| 重新计算法向                                                 | shift+n                                                      |
+| 切变（将面斜切）                                             | ctrl+alt+shift+s                                             |
 
 
 
@@ -300,12 +313,13 @@ Edit | Preferences
 
 ## 纹理绘制
 
-| 功能         | 快捷键             |
-| ------------ | ------------------ |
-| 改变笔刷直径 | f+鼠标左键         |
-| 改变图像位置 | 按住鼠标右键移动   |
-| 缩放图像     | shift+按住鼠标右键 |
-| 旋转图像     | ctrl+按住鼠标右键  |
+| 功能                 | 快捷键             |
+| -------------------- | ------------------ |
+| 改变笔刷直径         | f+滚动鼠标         |
+| 改变图像位置         | 按住鼠标右键移动   |
+| 缩放图像             | shift+按住鼠标右键 |
+| 旋转图像             | ctrl+按住鼠标右键  |
+| 吸取当前鼠标位置颜色 | s                  |
 
 
 
@@ -317,13 +331,25 @@ Edit | Preferences
 
 
 
+## 绑定
+
+| 功能 | 快捷键 |
+| ---- | ------ |
+|      |        |
+
+
+
 # 插件
 
 - Node：Node Wrangler 自动创建节点网络
 - UV：UvSquares Uv 四边形选择重塑为网格
-- Add Mesh：Extra Objects 添加曲线插件
-- Mesh：LoopTools 治理各种环
+- Add Mesh：Extra Objects 额外网格
+- Add Curve：Extra Objects 额外曲线
+- Add Curve：simplify Curves+ 简化曲线
+- Mesh：LoopTools 治理各种环，平面化
 - Rigging：Rigify 骨架生成控制
+- Object：Bool Tool 布尔工具，提高布尔插件效率
+- Create：Create ISOCam 相机（需要安装插件isocam.zip）
 
 
 

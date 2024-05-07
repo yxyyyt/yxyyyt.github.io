@@ -1,26 +1,26 @@
 * 1️⃣**JDK基础**
   * JVM
     * [JVM核心技术](jdk_base/jvm/jvm_core)
-    * [ByteCode分析](jdk_base/jvm/bytecode_analysis)
-    * [内存分析调优](jdk_base/jvm/memory_analysis)
-    * [JDK工具](jdk_base/jvm/jdk_tool)
+    * [ByteCode分析](jdk_base/jvm/jvm_bytecode_analysis)
+    * [内存分析调优](jdk_base/jvm/jvm_memory_analysis)
+    * [JDK工具](jdk_base/jvm/jvm_tool)
   * IO
     * [IO模型](jdk_base/io/io_model)
   * 并发
-    * [多线程基础](jdk_base/concurrency/thread_base)
-    * [JUC基础](jdk_base/concurrency/juc)
-    * [AQS](jdk_base/concurrency/aqs)
+    * [多线程基础](jdk_base/concurrency/concurrency_thread_base)
+    * [JUC基础](jdk_base/concurrency/concurrency_juc)
+    * [AQS](jdk_base/concurrency/concurrency_aqs)
 * 2️⃣**Java库**
   * Netty
   * Mybatis
   * WebMagic
 * 3️⃣**算法**
   * 左程云算法与数据结构
-    * [体系](algo/algo_zcy/system)
-    * [进阶](algo/algo_zcy/advanced)
-    * [刷题](algo/algo_zcy/quiz)
+    * [体系](algo/algo_zcy/algo_zcy_system)
+    * [进阶](algo/algo_zcy/algo_zcy_advanced)
+    * [刷题](algo/algo_zcy/algo_zcy_quiz)
   * 竞赛
-    * [概述](algo/algo_match/overview)
+    * [概述](algo/algo_match/algo_match_overview)
 * 4️⃣**spring体系**
   * SpringCore
   * SpringMVC
@@ -35,40 +35,41 @@
   * MySQL
     * [MySQL核心技术](database/mysql/mysql_core)
   * Redis
-    * [概述](database/redis/overview)
+    * [概述](database/redis/redis_overview)
     * [Redis核心技术](database/redis/redis_core)
   * Elasticsearch
+    - [Elasticsearch安装部署](database/elasticsearch/elasticsearch_install)
+    - [Elasticsearch入门](database/elasticsearch/elasticsearch_introduction)
 * 7️⃣**工具**
   * Git
-    * [Git配置](tool/git/config)
-    * [Git命令](tool/git/command)
-    * [Github开发规范](tool/git/github_dev_spec)
-    * [Github贡献](tool/git/github_contribute)
-    * [问答](tool/git/q&a)
+    * [Git配置](tool/git/git_config)
+    * [Git命令](tool/git/git_command)
+    * [Github开发规范](tool/git/git_github_dev_spec)
+    * [Github贡献](tool/git/git_github_contribute)
+    * [问答](tool/git/git_q&a)
   * VMware
-    * [安装环境](tool/vmware/install_vm)
-    * [初始化环境](tool/vmware/init_vm)
-    * [安装软件](tool/vmware/install_software)
-    * [问答](tool/vmware/q&a)
+    * [安装环境](tool/vmware/vmware_install)
+    * [初始化环境](tool/vmware/vmware_init)
+    * [安装软件](tool/vmware/vmware_install_software)
+    * [问答](tool/vmware/vmware_q&a)
   * Docker
-    * [概述](tool/docker/overview)
-    * [命令](tool/docker/command)
-    * [Dockerfile脚本](tool/docker/dockerfile)
-    * [镜像](tool/docker/images)
-    * [问答](tool/docker/q&a)
+    * [概述](tool/docker/docker_overview)
+    * [命令](tool/docker/docker_command)
+    * [Dockerfile脚本](tool/docker/docker_dockerfile)
+    * [镜像](tool/docker/docker_images)
+    * [问答](tool/docker/docker_q&a)
   * IntelliJ IDEA
-    * [配置IDEA](tool/intellij_idea/config)
-    * [快捷键](tool/intellij_idea/shortcut_keys)
-    * [问答](tool/intellij_idea/q&a)
+    * [配置IDEA](tool/intellij_idea/intellij_idea_config)
+    * [快捷键](tool/intellij_idea/intellij_idea_shortcut_keys)
+    * [问答](tool/intellij_idea/intellij_idea_q&a)
   * Nexus
-    * [配置Nexus](tool/nexus/config)
+    * [配置Nexus](tool/nexus/nexus_config)
   * Gradle
-    * [配置Gradle](tool/gradle/config)
+    * [配置Gradle](tool/gradle/gradle_config)
   * Typora
-    * [配置Typora](tool/typora/config)
+    * [配置Typora](tool/typora/typora_config)
   * Docsify
-    * [配置Docsify](tool/docsify/config)
+    * [配置Docsify](tool/docsify/docsify_config)
   * Blender
-    * [配置Blender](tool/blen/config)
-    * [操作](tool/blender/operate)
-    * [问答](tool/blender/q&a)
+    * [配置Blender](tool/blender/blender_config)
+    * [问答](tool/blender/blender_q&a)

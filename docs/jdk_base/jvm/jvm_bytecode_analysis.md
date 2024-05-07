@@ -15,7 +15,7 @@ JVM是一台基于**栈**的计算机器。每个线程都有一个独属于自�
 
 所有指令的起点都是操作数栈，在其上进行运算，临时结果继续入栈；而最终结果可以保存在本地变量表中，用于其他指令读取。
 
-![jvm_bytecode_runtime](bytecode_analysis.assets/jvm_bytecode_runtime.png)
+![jvm_bytecode_runtime](jvm_bytecode_analysis.assets/jvm_bytecode_runtime.png)
 
 # 指令
 
