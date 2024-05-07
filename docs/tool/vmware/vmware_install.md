@@ -6,6 +6,9 @@
   - 工作区：虚拟机的默认位置
   - 内存：2048MB
 
+- VMware Fusion 11 注册码 `7HYY8-Z8WWY-F1MAN-ECKNY-LUXYX` 
+- VMware Fusion 12 注册码 `ZF3R0-FHED2-M80TY-8QYGC-NPKYF`
+
 
 
 # 网络连接设置
@@ -61,5 +64,4 @@
 - 开始安装
   - root password：root（太短，双击确认即可）
 - 重启
-
 

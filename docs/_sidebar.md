@@ -3,17 +3,57 @@
     * [JVM核心技术](jdk_base/jvm/jvm_core)
     * [ByteCode分析](jdk_base/jvm/jvm_bytecode_analysis)
     * [内存分析调优](jdk_base/jvm/jvm_memory_analysis)
-    * [JDK工具](jdk_base/jvm/jvm_tool)
+    * [JDK源码分析](jdk_base/jvm/JDK源码分析)
+    * [JDK工具](jdk_base/jvm/JDK工具)
   * IO
-    * [IO模型](jdk_base/io/io_model)
+    * [NIO模型](jdk_base/io/NIO模型)
   * 并发
-    * [多线程基础](jdk_base/concurrency/concurrency_thread_base)
-    * [JUC基础](jdk_base/concurrency/concurrency_juc)
-    * [AQS](jdk_base/concurrency/concurrency_aqs)
+    * [多线程编程](jdk_base/concurrency/concurrency)
 * 2️⃣**Java库**
-  * Netty
   * Mybatis
+    * [Mybatis源码分析](jdk_lib/mybatis/mybatis_sourcecode)
+  * Netty
+    * [Netty核心与源码解析](jdk_lib/netty/Netty核心与源码解析)
   * WebMagic
+    * [WebMagic源码解析](jdk_lib/webmagic/WebMagic源码解析)
+  * Azkaban
+    * [Azkaban安装](jdk_lib/azkaban/azkaban_install)
+    * [Azkaban概述](jdk_lib/azkaban/azkaban_overview)
+  * Flume
+    * [Flume 安装](jdk_lib/flume/flume_install)
+    * [Flume 数据采集](jdk_lib/flume/flume_data_collect)
+  * Hadoop
+    * Hdfs
+      * [HDFS核心功能原理](jdk_lib/hadoop/hdfs/HDFS核心功能原理)
+      * [HDFS命令](jdk_lib/hadoop/hdfs/HDFS命令)
+      * [HDFS源码分析](jdk_lib/hadoop/hdfs/HDFS源码分析)
+    * MapReduce
+      * [MapReduce工作原理](jdk_lib/hadoop/mapreduce/MapReduce工作原理)
+    * Yarn
+      * [YARN架构](jdk_lib/hadoop/yarn/YARN架构)
+    * [Hadoop集群安装部署](jdk_lib/hadoop/Hadoop集群安装部署)
+    * [Hadoop集群安装部署](jdk_lib/hadoop/Hadoop企业级调优)
+    * [Hadoop集群安装部署](jdk_lib/hadoop/HadoopHA集群安装部署)
+  * HBase
+    * [HBase集群安装部署](jdk_lib/hbase/HBase集群安装部署)
+    * [大数据数据库之HBase](jdk_lib/hbase/大数据数据库之HBase)
+  * Hive
+    * [Hive安装部署](jdk_lib/hive/Hive安装部署)
+    * [大数据分析利器之Hive](jdk_lib/hive/大数据分析利器之Hive)
+    * [Hive调优](jdk_lib/hive/Hive调优)
+  * Spark
+    * SparkCore
+      * [Spark调优](jdk_lib/spark/sparkcore/Spark调优)
+      * [SparkCore核心功能](jdk_lib/spark/sparkcore/SparkCore核心功能)
+    * SparkSQL
+      * [SparkSQL核心功能](jdk_lib/spark/sparksql/SparkSQL核心功能)
+    * [Spark集群安装部署](jdk_lib/spark/Spark集群安装部署)
+  * Sqoop
+    * [Sqoop安装部署](jdk_lib/sqoop/Sqoop安装部署)
+    * [Sqoop数据迁移](jdk_lib/sqoop/Sqoop数据迁移)
+  * ZooKeeper
+    * [ZooKeeper分布式协调框架](jdk_lib/zookeeper/ZooKeeper分布式协调框架)
+    * [ZooKeeper集群安装部署](jdk_lib/zookeeper/ZooKeeper集群安装部署)
 * 3️⃣**算法**
   * 左程云算法与数据结构
     * [体系](algo/algo_zcy/algo_zcy_system)
@@ -23,18 +63,40 @@
     * [概述](algo/algo_match/algo_match_overview)
 * 4️⃣**spring体系**
   * SpringCore
-  * SpringMVC
+    * [Spring源码分析](spring/core/Spring源码分析)
+    * [SpringCore核心功能](spring/core/SpringCore核心功能)
+    * [SpringCore核心功能](spring/core/SpringMVC核心功能)
   * SpringBoot
+    * [SpringBoot核心功能](spring/springboot/SpringBoot核心功能)
+    * [SpringBoot源码分析](spring/springboot/SpringBoot源码分析)
   * SpringCloud
+    * [SpringCloud源码分析](spring/springcloud/SpringCloud源码分析)
   * SpringCloudAlibaba
+    * [Dubbo源码分析](spring/springcloudalibaba/Dubbo源码分析)
+    * [Nacos源码分析](spring/springcloudalibaba/Nacos源码分析)
+    * [Seata源码分析](spring/springcloudalibaba/Seata源码分析)
+    * [Sentinel源码分析](spring/springcloudalibaba/Sentinel源码分析)
 * 5️⃣**消息队列**
   * Kafka
+    * [Kafka分布式消息流平台](mq/kafka/Kafka分布式消息流平台)
+    * [Kafka集群安装部署](mq/kafka/Kafka集群安装部署)
+    * [Kafka监控工具](mq/kafka/Kafka监控工具)
   * RabbitMQ
+    * [RabbitMQ安装部署](mq/rabbitmq/RabbitMQ安装部署)
+    * [RabbitMQ入门](mq/rabbitmq/RabbitMQ入门)
   * RocketMQ
+    * [消息队列高手实战](mq/rocketmq/消息队列高手实战)
+    * [RocketMQ安装部署](mq/rocketmq/RocketMQ安装部署)
+    * [RocketMQ核心功能原理](mq/rocketmq/RocketMQ核心功能原理)
+    * [RocketMQ源码分析](mq/rocketmq/RocketMQ源码分析)
 * 6️⃣**数据库**
   * MySQL
+    * [MySQL安装](database/mysql/mysql_install)
     * [MySQL核心技术](database/mysql/mysql_core)
+    * [MySQL实战](database/mysql/mysql_practice)
+    * [SQL50题](database/mysql/mysql_topic50)
   * Redis
+    * [Redis安装](database/redis/redis_install)
     * [概述](database/redis/redis_overview)
     * [Redis核心技术](database/redis/redis_core)
   * Elasticsearch
@@ -66,6 +128,8 @@
     * [配置Nexus](tool/nexus/nexus_config)
   * Gradle
     * [配置Gradle](tool/gradle/gradle_config)
+  * Maven
+    * [配置Maven](tool/maven/maven_config)
   * Typora
     * [配置Typora](tool/typora/typora_config)
   * Docsify
@@ -73,3 +137,14 @@
   * Blender
     * [配置Blender](tool/blender/blender_config)
     * [问答](tool/blender/blender_q&a)
+  * iTerm
+    * [iTerm](tool/iterm/iTerm)
+  * Linux
+    * [Linux](tool/linux/Linux)
+  * Nginx
+    * [Nginx](tool/nginx/Nginx)
+* 8️⃣**项目**
+  * hummer
+    * [hummer分布式文件系统开发设计](project/hummer/hummer分布式文件系统开发设计)
+  * openmall
+    * [OpenMall安装部署演进](project/openmall/OpenMall安装部署演进)
