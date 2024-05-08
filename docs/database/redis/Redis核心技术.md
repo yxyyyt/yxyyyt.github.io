@@ -651,7 +651,7 @@ Redis基于Reactor模式开发了网络事件处理器，这个处理器称为�
 
 #### 线程模型
 
-![redis_thread_model](redis_core.assets/redis_thread_model.png)
+![redis_thread_model](Redis核心技术.assets/redis_thread_model.png)
 
 
 

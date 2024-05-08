@@ -1182,7 +1182,7 @@ InnoDB每个事务有一个唯一的事务ID，在事务开始的时候向InnoDB
 
 ### 主从复制流程
 
-<img src="mysql_core.assets/master_slave_replica.png" alt="master_slave_replica" style="zoom:50%;" />
+<img src="MySQL核心技术.assets/master_slave_replica.png" alt="master_slave_replica" style="zoom:50%;" />
 
 1. Slave的**IO线程**向Master请求数据
 2. Master的**Binlog线程**发送数据给Slave的**IO线程**
@@ -1673,7 +1673,7 @@ select member_id, member_host, member_port, member_state, if(gs.VARIABLE_NAME is
 
 ## 分库分表
 
-![extended_cube](mysql_core.assets/extended_cube.png)
+![extended_cube](MySQL核心技术.assets/extended_cube.png)
 
 X轴：通过clone整个系统复制，集群
 

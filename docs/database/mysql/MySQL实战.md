@@ -42,7 +42,7 @@ MySQL 的事务启动方式有以下几种：
 
 数据版本可见性规则
 
-<img src="mysql_practice.assets/mvcc_visibility_rules.png" alt="mvcc_visibility_rules" style="zoom:50%;" />
+<img src="MySQL实战.assets/mvcc_visibility_rules.png" alt="mvcc_visibility_rules" style="zoom:50%;" />
 
 <font color=red>查询数据</font>
 
@@ -152,7 +152,7 @@ B+Tree高为3，数据记录条数 1170 * 1170 * 16 = 21902400
 
 # 唯一索引和普通索引的选择
 
-<img src="mysql_practice.assets/mysql_index_update_read.png" alt="mysql_index_update_read" style="zoom: 80%;" />
+<img src="MySQL实战.assets/mysql_index_update_read.png" alt="mysql_index_update_read" style="zoom: 80%;" />
 
 - 查询
 

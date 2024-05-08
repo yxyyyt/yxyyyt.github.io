@@ -20,7 +20,7 @@ Flume分布式系统中最核心的角色是agent，flume采集系统就是由�
 
 - Channel：传输通道组件，用于从source将数据传递到sink
 
-![flume_single_agent](flume_data_collect.assets/flume_single_agent.png)
+![flume_single_agent](Flume数据采集.assets/flume_single_agent.png)
 
 
 

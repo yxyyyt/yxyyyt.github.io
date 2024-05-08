@@ -2,7 +2,7 @@
 
 Java是一种面向对象、静态类型、编译执行，有 VM/GC 和运行时、跨平台的高级语言。
 
-![jvm_summary](jvm_core.assets/jvm_summary.png)
+![jvm_summary](JVM核心技术.assets/jvm_summary.png)
 
 
 
@@ -10,7 +10,7 @@ Java是一种面向对象、静态类型、编译执行，有 VM/GC 和运行时
 
 ## 类的生命周期
 
-![jvm_class_lifecycle](jvm_core.assets/jvm_class_lifecycle.png)
+![jvm_class_lifecycle](JVM核心技术.assets/jvm_class_lifecycle.png)
 
 1. 加载
 
@@ -96,7 +96,7 @@ Java是一种面向对象、静态类型、编译执行，有 VM/GC 和运行时
 
 
 
-![jvm_classloader](jvm_core.assets/jvm_classloader.png)
+![jvm_classloader](JVM核心技术.assets/jvm_classloader.png)
 
 `sun.misc.Launcher` JVM的入口类，构造函数负责初始化类加载器的层次结构
 
@@ -224,7 +224,7 @@ Java是一种面向对象、静态类型、编译执行，有 VM/GC 和运行时
 
 ## 内存整体结构
 
-![jvm_memory_model](jvm_core.assets/jvm_memory_model.png)
+![jvm_memory_model](JVM核心技术.assets/jvm_memory_model.png)
 
 
 
@@ -334,7 +334,7 @@ Java是一种面向对象、静态类型、编译执行，有 VM/GC 和运行时
 
 ## 内存参数关系
 
-![jvm_memory_parameter_relationship](jvm_core.assets/jvm_memory_parameter_relationship.png)
+![jvm_memory_parameter_relationship](JVM核心技术.assets/jvm_memory_parameter_relationship.png)
 
 
 
@@ -529,7 +529,7 @@ Safe Point 是对**正在执行**的线程设定的。如果一个线程处于 *
 
 如果GC和用户线程并发执行，收集器在对象图上标记颜色，同时用户线程在修改引用关系——即修改对象图的结构，这样可能出现两种问题
 
-![jvm_tri_colour_marking](jvm_core.assets/jvm_tri_colour_marking.png)
+![jvm_tri_colour_marking](JVM核心技术.assets/jvm_tri_colour_marking.png)
 
 - 把原本消亡的对象错误标记为存活（可容忍）
 

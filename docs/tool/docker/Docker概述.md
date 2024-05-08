@@ -2,7 +2,7 @@
 
 Docker使用的是client-server架构。Docker client同Docker daemon（守护进程）通信，Docker daemon负责构建、运行和分发Docker容器。Docker client和Docker daemon可以运行在同一个系统内，Docker client也可以连接到一个远程的Docker daemon。
 
-![architecture](docker_overview.assets/architecture.svg)
+![architecture](Docker概述.assets/architecture.svg)
 
 
 

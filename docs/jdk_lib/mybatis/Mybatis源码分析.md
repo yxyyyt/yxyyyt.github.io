@@ -112,7 +112,7 @@
         - 从数据库查询 queryFromDatabase
         - 查询结果置入缓存
 
-![mybatis_query.drawio](mybatis_sourcecode.assets/mybatis_query.drawio.png)
+![mybatis_query.drawio](Mybatis源码分析.assets/mybatis_query.drawio.png)
 
 
 

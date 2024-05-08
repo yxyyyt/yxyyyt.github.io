@@ -25,7 +25,7 @@
 
 # 流程
 
-![github_dev_flow](git_github_dev_spec.assets/github_dev_flow.png)
+![github_dev_flow](Github开发规范.assets/github_dev_flow.png)
 
 # 命令
 

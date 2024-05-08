@@ -525,7 +525,7 @@ let a=5+4
 
 ### vi/vim
 
-![vi-vim-cheat-sheet-sch](Linux.assets/vi-vim-cheat-sheet-sch.gif)
+![vi-vim-cheat-sheet-sch](Linux概述.assets/vi-vim-cheat-sheet-sch.gif)
 
 - vi 是老式的字处理器。vim 具有程序编辑的能力，可以主动的以字体颜色辨别语法的正确性，方便程序设计
 

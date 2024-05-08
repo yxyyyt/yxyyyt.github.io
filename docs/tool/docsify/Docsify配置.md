@@ -11,6 +11,13 @@ cd yxyyyt.github.io
 docsify init ./docs
 
 # 启动服务，访问 http://localhost:3000/#/
-docsify serve docs
+docsify serve ./docs
 ```
 
+
+
+# 问题
+
+- docsify启动异常 enquirer unexpected token
+
+  enquirer 2.4.0 cannot run in Node.js <= 16，需要升级 NodejS 版本
