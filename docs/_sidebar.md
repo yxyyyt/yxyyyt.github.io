@@ -134,9 +134,6 @@
     * [Typora配置](tool/typora/Typora配置)
   * Docsify
     * [Docsify配置](tool/docsify/Docsify配置)
-  * Blender
-    * [Blender概述](tool/blender/Blender概述)
-    * [Blender问答](tool/blender/Blender问答)
   * iTerm
     * [iTerm概述](tool/iterm/iTerm概述)
   * Linux
@@ -145,7 +142,14 @@
     * [Nginx概述](tool/nginx/Nginx概述)
   * NodeJS
     * [NodeJS安装](tool/nodejs/NodeJS安装)
-* 8️⃣**项目**
+* 8️⃣动画
+  * Blender
+    * [Blender概述](animation/blender/Blender概述)
+    * [Blender问答](animation/blender/Blender问答)
+    * [Blender动画角色](animation/blender/Blender动画角色)
+  * Photoshop
+    * [Photoshop配置](animation/photoshop/Photoshop配置)
+* 9️⃣**项目**
   * hummer
     * [hummer分布式文件系统开发设计](project/hummer/hummer分布式文件系统开发设计)
   * openmall
